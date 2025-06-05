@@ -9,13 +9,9 @@ license.workspace = true
 
 [dependencies]
 clap = { version = "4.4.1", features = ["derive", "cargo"] }
-confy = "0.5.1"
-const-str = "0.5.6"
+const-str = "0.6.2"
 dotenvy = "0.15.7"
 eyre = "0.6.8"
-
-metrics-exporter-prometheus = "0.12.1"
-metrics-process = "1.0.13"
 
 srv-api = { path = "../crates/srv-api" }
 srv-storage = { path = "../crates/srv-storage", features = ["sync"] }

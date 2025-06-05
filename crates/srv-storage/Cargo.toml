@@ -15,9 +15,9 @@ serde_json = { workspace = true }
 # database
 tokio = { workspace = true }
 chrono = { version = "0.4.26", features = ["serde"] }
-diesel = { version = "2.1.0" }
-diesel-async = { git = "https://github.com/weiznich/diesel_async", branch = "main" }
-diesel_migrations = "2.1.0"
+diesel = { version = "2.2.10" }
+diesel-async = { version = "0.5.2" }
+diesel_migrations = "2.2.0"
 
 [dev-dependencies]
 dotenvy = "0.15.7"

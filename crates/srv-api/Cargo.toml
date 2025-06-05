@@ -8,7 +8,7 @@ license.workspace = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-actix-web = "4.3.1"
+actix-web = "4.11"
 
 anyhow = "1.0.72"
 thiserror = "1.0.43"
@@ -17,7 +17,6 @@ serde = { workspace = true, features = ["derive"] }
 serde_json = { workspace = true }
 
 # database
-
 srv-storage = { path = "../srv-storage" }
 srv-tracing = { path = "../srv-tracing" }
 
@@ -39,7 +38,7 @@ tracing-opentelemetry = "0.21.0"
 tracing-subscriber = { version = "0.3.17", features = ["env-filter", "fmt"] }
 
 # validator
-validator = "0.16.1"
+validator = "0.20.0"
 
 tokio = { version = "1.29.0", features = ["full"] }
 actix-web-opentelemetry = { version = "0.15.0", features = ["metrics"] }

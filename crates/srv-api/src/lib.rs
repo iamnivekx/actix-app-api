@@ -1,5 +1,3 @@
-#![feature(async_closure)]
-
 use actix_web::{web, App, HttpServer};
 use actix_web_opentelemetry::{RequestMetrics, RequestTracing};
 use srv_storage::init_db;
